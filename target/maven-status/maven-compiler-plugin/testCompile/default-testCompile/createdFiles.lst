@@ -1,0 +1,5 @@
+com\qatest\pageObject\LogIn.class
+com\qatest\framework\ParentDriver.class
+com\qatest\runner\Runner.class
+com\qatest\framework\ParentScenario.class
+com\qatest\glue\login_stepDefenation.class

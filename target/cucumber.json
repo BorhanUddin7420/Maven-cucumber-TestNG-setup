@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2985245500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_stepDefenation.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Unsuccessful Login with Invalid Username and Valid Password",
+        "description": "",
+        "id": "user-login-credentioal-regression-test;unsuccessful-login-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5009644300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "login_stepDefenation.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85351600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Password \" 1215\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 1215",
+                  "offset": 21
+                }
+              ],
+              "location": "login_stepDefenation.user_enter_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95420500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click LogIn button",
+            "match": {
+              "location": "login_stepDefenation.user_Click_LogIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45352500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User check login alert \"Please enter valid email address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter valid email address",
+                  "offset": 24
+                }
+              ],
+              "location": "login_stepDefenation.user_check_login_alert(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User login credentioal regression test",
+    "description": "",
+    "id": "user-login-credentioal-regression-test",
+    "keyword": "Feature",
+    "uri": "A_login.feature"
+  }
+]
